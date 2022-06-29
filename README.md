@@ -1,11 +1,20 @@
 # useLocal
+
 Use cache if something went wrong
 
 ## Example
 
-Import the `useLocal` file.
+Install library.
+
+```shell
+npm i @posandu/uselocal
+```
+
+Import it and use it.
 
 ```js
+import useLocal from "@posandu/uselocal";
+
 function throwRandomly() {
 	if (Math.random() < 0.5) {
 		throw new Error("Something went wrong");

@@ -27,3 +27,5 @@ function useLocal(fn, ...args) {
 		else throw e;
 	}
 }
+
+export default useLocal;
